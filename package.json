@@ -1,0 +1,26 @@
+{
+  "name": "todos-app-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Backend using MongoDB, Mongoose, and Express",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server",
+    "dev": "cross-env NODE_ENV=development nodemon server"
+  },
+  "author": {
+    "name": "The Skinny Coder",
+    "email": "18131a0505@gvpce.ac.in"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.4"
+  }
+}

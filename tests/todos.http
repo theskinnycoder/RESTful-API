@@ -1,0 +1,27 @@
+@rootURL = http://localhost:5001/api/todos
+@ID = 5fcbb287b6a3131a58aeefcc
+
+
+### GET ALL TODOS
+GET {{rootURL}}/ HTTP/1.1
+
+
+### GET A TODO BY ID
+GET {{rootURL}}/{{ID}}/ HTTP/1.1
+
+
+### CREATE A NEW TODO
+POST {{rootURL}}/ HTTP/1.1
+Content-Type: application/json
+
+{
+	"text": "Go to the store"
+}
+
+
+### UPDATE A TODO BY ID
+PATCH {{rootURL}}/{{ID}} HTTP/1.1
+
+
+### DELETE A TODO BY ID
+DELETE {{rootURL}}/{{ID}} HTTP/1.1
