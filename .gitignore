@@ -6,3 +6,4 @@
 /**/*.log
 /**/*.env
 /**/.eslintcache
+/**/Notes.md

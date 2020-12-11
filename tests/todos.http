@@ -20,8 +20,8 @@ Content-Type: application/json
 
 
 ### UPDATE A TODO BY ID
-PATCH {{rootURL}}/{{ID}} HTTP/1.1
+PATCH {{rootURL}}/{{ID}}/ HTTP/1.1
 
 
 ### DELETE A TODO BY ID
-DELETE {{rootURL}}/{{ID}} HTTP/1.1
+DELETE {{rootURL}}/{{ID}}/ HTTP/1.1

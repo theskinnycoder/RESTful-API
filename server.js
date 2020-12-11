@@ -25,7 +25,7 @@ const { PORT, NODE_ENV } = process.env;
   if (NODE_ENV === 'development') app.use(morgan('dev'));
 
   // Primary Route Hitters
-  // Forward all URLs from /api/todo to toDo controllers
+  // Forward all URLs from /api/todos to toDo routes
   app.use('/api/todos', toDoRoutes);
 
   // Listen for requests
