@@ -1,4 +1,4 @@
-# **RESTful-API using NodeJS, Express, MongoDB and Mongoose**
+# **A RESTful-API using NodeJS, Express, MongoDB and Mongoose**
 
 > An API that enables you to **_Create_**, **_Read_**, **_Update_**, **_Delete_** todos
 
