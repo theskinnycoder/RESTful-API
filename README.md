@@ -1,6 +1,6 @@
-# **RESTful-API using NodeJS, Express, MongoDB and Mongoose**
+# **A MERN-Stack Web-App (MongoDB, ExpressJS, ReactJS, and NodeJS**
 
-> An API that enables you to **_Create_**, **_Read_**, **_Update_**, **_Delete_** todos
+> An app that enables you to **_Create_**, **_Read_**, **_Update_**, **_Delete_** todos
 
 ## **A. Environemnt Variables**
 
@@ -16,19 +16,33 @@ MONGO_URI = <Your MongoDB Atlas Access Token String>
 1. Install the dependencies after cloning :
 
 ```bash
+# For Server
 npm install # yarn
+
+# For Client
+cd client/
+npm install # yarn
+cd ..
 ```
 
-2. Run the server in production mode :
+1. Run the server in production mode :
 
 ```bash
 npm start # yarn start
 ```
 
-3. Run the server in development mode :
+2. Run the server in development mode :
 
 ```bash
- npm run dev # yarn dev
+npm run dev # yarn dev
+```
+
+3. Run the client in development mode :
+
+```bash
+cd client/
+npm start # yarn start
+cd ..
 ```
 
 > Happy coding!
