@@ -1,9 +1,9 @@
-import ToDoItem from './ToDoItem';
+import ToDoItem from "./ToDoItem"
 
 const ToDoList = ({ todos, updateToDos, deleteToDo }) => {
   return (
     <>
-      <ul className='container my-4'>
+      <ul className="container my-4">
         {todos ? (
           todos.map(todo => (
             <ToDoItem
@@ -18,7 +18,7 @@ const ToDoList = ({ todos, updateToDos, deleteToDo }) => {
         )}
       </ul>
     </>
-  );
-};
+  )
+}
 
-export default ToDoList;
+export default ToDoList

@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose"
 
 // An async connection function : Calls and Connects to the DB, before listening for any requests
 export default async () => {
@@ -8,10 +8,10 @@ export default async () => {
       useCreateIndex: true,
       useUnifiedTopology: true,
       useFindAndModify: false
-    });
-    console.log(`Connected to the MongoDB DataBase ${conn.connection.name}`);
+    })
+    console.log(`Connected to the MongoDB DataBase ${conn.connection.name}`)
   } catch (err) {
-    console.error(err);
-    process.exit(1);
+    console.error(err)
+    process.exit(1)
   }
-};
+}
