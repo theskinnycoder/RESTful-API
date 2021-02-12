@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose"
 
 const toDoSchema = mongoose.Schema({
   text: {
@@ -9,6 +9,6 @@ const toDoSchema = mongoose.Schema({
     type: Boolean,
     default: false
   }
-});
+})
 
-export default mongoose.model('ToDo', toDoSchema);
+export default mongoose.model("ToDo", toDoSchema)
