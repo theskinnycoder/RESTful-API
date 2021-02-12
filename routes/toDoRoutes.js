@@ -1,20 +1,20 @@
-import express from 'express';
+import express from "express"
 import {
   createToDo,
   deleteToDoByID,
   getAllToDos,
   getToDoByID,
   updateToDoByID
-} from '../controllers/toDoControllers.js';
+} from "../controllers/toDoControllers.js"
 
-const router = express.Router();
+const router = express.Router()
 
-router.route('/').get(getAllToDos).post(createToDo);
+router.route("/").get(getAllToDos).post(createToDo)
 
 router
-  .route('/:id/')
+  .route("/:id/")
   .get(getToDoByID)
   .patch(updateToDoByID)
-  .delete(deleteToDoByID);
+  .delete(deleteToDoByID)
 
-export default router;
+export default router
